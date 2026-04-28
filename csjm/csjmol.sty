@@ -1,0 +1,202 @@
+% Style message
+\typeout{}
+\typeout{Article style for COMPUTER SCIENCE JOURNAL OF MOLDOVA}
+\typeout{Version 1.4, April 28, 1993}
+\typeout{(c) 1993 by Alexander Colesnicov & Ludmila Malahova}
+\typeout{}
+%
+% for citing
+\RequirePackage{cite}
+\usepackage{cite}
+\renewcommand{\citedash}{]\hbox{--}\penalty\citepunctpenalty[}
+\renewcommand{\citepunct}{],\penalty\citepunctpenalty%
+	\hskip.13emplus.1emminus.1em\relax[}
+%
+% Number: in the current year,
+%         absolute (from the beginning in 1993)
+%         volume (boldface, 1993 - vol. 1),
+%         current year
+\def\CSJMnumber{1}           % These are to change every time...
+\def\CSJMabsnumber{94}       %
+\def\CSJMvolume{{\bf 32}}     %
+\def\CSJMyear{2024}          %
+
+% Different title variants
+\def\CSJM{Computer Science Journal of Moldova}
+\def\CSJMrm{{\rm Computer Science Journal of Moldova}}
+\def\CSJMbf{{\bf Computer Science Journal of Moldova}}
+\def\CSJMit{{\it Computer Science Journal of Moldova}}
+
+\def\CSJMtitle{\CSJM, vol.\CSJMvolume,
+               no.\CSJMnumber(\CSJMabsnumber), \CSJMyear}
+\def\CSJMrmtitle{{\rm \CSJM, vol.\CSJMvolume,
+                  no.\CSJMnumber(\CSJMabsnumber), \CSJMyear}}
+
+% Page numbering
+\newcount\c@StartPage    % Number of article's or sheets' first page
+\newcount\c@Separate     % 0 - article, 1 - sheets (e.g., advertisement)
+\newcount\c@EmptyStyle   % 0 - pages are numbered and have top/bottom matter
+                         % 1 - unnumbered pages
+\c@StartPage1            % Defaults: first page number = 1,
+\c@Separate0             %           article,
+\c@EmptyStyle0           %           numbered pages
+% For articles, the starting page number is to be issued by the macro \StartPage{number}
+% An article always have numbered pages and top matter of three kinds:
+% on its title page, on odd and even pages
+\def\StartPage#1{\c@StartPage#1 \setcounter{page}{\c@StartPage}
+                 \c@Separate0 \c@EmptyStyle0}
+% For sheets, the starting page number is to be issued by the macro \Sheets{number}
+% \Sheets{0} - no top matter and numbering
+\def\Sheets#1{\c@StartPage#1 \setcounter{page}{\c@StartPage}
+              \ifnum#1=0 \c@EmptyStyle1 \pagestyle{empty}
+              \else \c@EmptyStyle0
+              \fi
+              \c@Separate1}
+
+% \Copyright{1993 by I.Ivanov} makes a footnote on the title page
+\newtoks\t@CopyRight
+\t@CopyRight{}
+\def\CopyRight#1{\t@CopyRight{#1}}
+
+% \Headings{I.Ivanov}{The example LaTeX-formatted paper}
+% defines top matter on left and right sides for the article
+% (on the title page, the top matter contains CSJMOL name)
+% These top matters may differ from author list and
+% the title because they are to be not longer than 1/2 line.
+% Long author lists and titles are to be shortened:
+%   \Headings{I.Ivanov et al.}{The example paper...}
+\newtoks\t@LeftHeading
+\newtoks\t@RightHeading
+\t@LeftHeading{}
+\t@RightHeading{}
+\def\Headings#1#2{\t@LeftHeading{#1}\t@RightHeading{#2}}
+
+% Page size - this is strictly fixed by publishers
+% We can not change it
+
+%%%for A5 paper
+\usepackage{geometry}
+%\setlength{\topmargin}{-0.21in}
+\setlength{\topmargin}{-0.42in}
+\setlength{\textheight}{173mm}
+\setlength{\textwidth}{118mm}
+\setlength{\headsep}{0.14in}
+\setlength{\oddsidemargin}{-0.37in} % 1.6cm
+\setlength{\evensidemargin}{-0.37in} % 1.6cm
+
+%A5%%\setlength{\oddsidemargin}{20mm}   % Left margin
+%A5%%\setlength{\evensidemargin}{20mm}  %
+
+%A5%%\setlength{\topmargin}{20mm}       % Top margin
+\advance\headheight by 2pt         % Top matter height corrected
+\setlength{\footskip}{8mm}        % A skip between body text and footnotes
+
+\setlength{\textheight}{182mm}     % Text height (incl. top matter and footnotes)
+\advance\textheight by-\headheight %
+\advance\textheight by-\headsep    % Corrected text height
+\newdimen\OurTextWidth             % Our text width
+\setlength{\OurTextWidth}{118mm}
+\setlength{\textwidth}{\OurTextWidth}
+
+% Adjusting top matter width for symmetry
+\newdimen\HeaderWidth
+ \setlength{\HeaderWidth}{\textwidth}
+ \advance\HeaderWidth by-3pt
+\def\headadjust{\kern -0.36667pt}
+
+% Right now not used
+%\newdimen\AddressWidth
+% \setlength{\AddressWidth}{60mm}
+%\newdimen\ReceivedWidth
+% \setlength{\ReceivedWidth}{\textwidth}
+% \advance\ReceivedWidth by-\AddressWidth
+
+% Correcting macros from ARTICLE.STY defining
+% and formatting title
+
+\def\maketitle{\par
+   \begingroup
+     \def\thefootnote{\fnsymbol{footnote}}
+     \def\@makefnmark{\hbox to 0pt{$^{\@thefnmark}$\hss}}
+     \if@twocolumn
+       \twocolumn[\@maketitle]
+     \else
+       \newpage
+       \global\@topnum\z@ % Prevents figures from going at top of page.
+       \@maketitle
+     \fi
+     \ifodd\c@EmptyStyle                % Phge style:
+      \pagestyle{empty}                 % for unnumberd sheets
+     \else
+      \thispagestyle{myheadings}        % for articles and numbered sheets
+     \fi
+     \@thanks
+   \endgroup
+   \setcounter{footnote}{0}
+   \let\maketitle\relax
+   \let\@maketitle\relax
+   \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\let\thanks\relax
+   \ifodd\c@EmptyStyle                  % Page style:
+    \pagestyle{empty}                   % for unnumberd sheets
+   \else
+    \pagestyle{myheadings}              % for articles and numbered sheets
+    \markboth{\the\t@LeftHeading}{\the\t@RightHeading}
+   \fi }
+
+\def\@maketitle{\newpage
+   \vskip 2em                 % Vertical space above title.
+   \begin{center}
+    {\LARGE
+     \if\the\t@CopyRight      % \Copyright is a 0th footnote if any
+     \else \setcounter{footnote}{-1}
+           \thanks{\tt \kern -17pt \copyright\the\t@CopyRight}
+     \fi\@title \par}         % Title set in \LARGE size.
+    \vskip 1.5em              % Vertical space after title.
+    {\large                   % each author set in \large, in a
+     \lineskip .5em           % tabular environment
+     \begin{tabular}[t]{c}\@author
+     \end{tabular}\par}
+%%%%\vskip .5em               % Vertical space after author.  % No space
+%%%%{\large \@date}           % Date set in \large size.      % No date
+  \end{center}
+   \par
+   \vskip 1.5em}              % Vertical space after date.
+
+% Top matter
+\def\RightMark{\ifnum\c@page=\StartPage \CSJMtitle
+               \else \ifodd\c@Separate \CSJMtitle \else \rightmark \fi
+               \fi}
+\def\LeftMark{\ifnum\c@page=\StartPage \CSJMtitle
+              \else \ifodd\c@Separate \CSJMtitle \else \leftmark \fi
+              \fi}
+
+\def\ps@myheadings{\let\@mkboth\@gobbletwo}
+\def\@oddhead{\headadjust \vbox{ \hbox to\HeaderWidth{\hfil \strut \RightMark \hfil}
+                                 \hrule width\HeaderWidth }  }
+\def\@oddfoot{\hfil \thepage \hfil}
+\def\@evenhead{\headadjust \vbox{ \hbox to\HeaderWidth{\hfil \strut \LeftMark \hfil}
+                                  \hrule width\HeaderWidth }  }
+\def\@evenfoot{\hfil \thepage \hfil}
+
+% Redefinition of \caption: the ":" following
+% the number of figure or table, may be changed by
+% \renewcommand{\CaptionChar}{new character}
+\def\CaptionChar{:} % The standard separator is colon
+% The changed definition from ARTICLE.STY
+\long\def\@makecaption#1#2{
+ \vskip 10pt
+ \setbox\@tempboxa\hbox{#1\CaptionChar #2}
+ \ifdim \wd\@tempboxa >\hsize #1\CaptionChar #2\par \else \hbox
+to\hsize{\hfil\box\@tempboxa\hfil}
+ \fi}
+
+% Macro to put comma under a letter;
+% \rum{S}, \rum{s}, \rum{T}, \rum{t} makes Romanian letters SH, sh, TS, ts
+% May be used for other languages, e.g. \rum{k} in Lettish
+\newdimen\rom@ndimen
+\def\rum#1{\setbox3=\hbox{#1}\rom@ndimen=0.6\wd3%
+\setbox4=\hbox{$\vphantom{\box3}_{\hbox{,}}$}%
+\advance\rom@ndimen by-0.57\wd4%
+\setbox3=\hbox{\kern\rom@ndimen\box4}\wd3=0pt%
+\relax\leavevmode\box3#1}
+

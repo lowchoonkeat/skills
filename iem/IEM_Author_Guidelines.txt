@@ -1,0 +1,211 @@
+Author Guidelines
+Manuscript preparation guidelines for IEM Journal authors 
+
+The aim of publishing the Journal of the Institution of Engineers Malaysia (or IEM Journal) is to promote the advancement of science, engineering, and technology; disseminate new and current knowledge; and share novel findings among practising engineers, researchers, and other interested colleagues.
+
+Hence, the IEM Journal covers a wide range of practical and diversified engineering disciplines, including publishing papers on any subjects relevant to the engineering and technology of today. As in other journals, all paper submissions to the IEM journal will be peer-reviewed by professionals.
+
+Submission of a contribution is taken to manifest the fact that the submission has not been submitted, accepted, published, or copyrighted elsewhere. To avoid publication delays, please send all manuscripts to the Editor (via the Online Journal Submission) and observe the following guidelines. Each paper is independently peer-reviewed.
+
+ Types of Papers
+
+IEM Journal will accept any submissions that fall within the types of papers shown below:
+
+Research Paper
+Significant research and development or applications in any engineering and/or technology field. The submission should be around 10- 20 pages or longer depending on the depth of the study.
+
+Review Paper
+Articles that summarise the state-of-the-art of a specific area of research. Submissions should be about 10-20 pages or longer depending on the depth of the study.
+
+Together with the paper submission, the authors will propose two reviewers complete with their contact details (official postal and email address, and telephone number). Reviewers should be the experts in their research areas. Kindly note this is not a major requirement. 
+
+Plagiarism Policy
+
+IEM Journal strictly prohibits any form of Plagiarism.
+
+If the manuscript has been presented, published, or submitted for publication elsewhere, please inform the Editor. Our primary objective is to publish technical materials not available elsewhere.
+
+ Format and elements of submitted texts
+
+a) Initial Submission
+
+For initial submission and reviewing, ALL papers are accepted regardless of the formatting used.
+
+b) Final Submission
+
+Upon final submission of the paper, authors must follow the manuscript instruction guidelines and paper template as presented below.
+
+Please prepare your main text document in Microsoft Word and PDF format, the text should be single-line spaced, and line-numbered and the pages should be numbered. You can Download the Paper Template here.
+
+Please note that the style that you submit your paper in (e.g. any additional italics or bold fonts, bullet points, etc.) may be changed on publication to accommodate our publication style.
+
+Manuscript Style
+
+Language:
+
+The language of the IEM Journal is English. 
+The manuscript should be able to be readily understood by an engineer and researchers alike and should avoid any colloquialisms.
+The terms, including nomenclature and abbreviations, and style should be consistent throughout your journal paper. If you collaborate with other writers, please communicate clearly with them.
+Avoid referring directly to the names of individuals, organisations, products, or services unless essential to the comprehension of the manuscript. Gratuitous flattery or derogatory remarks about a person or organisation should not be included.
+Symbols and Units: SI and derived units should be used, if possible.
+Abbreviations: the use of internationally recognised abbreviations is allowed in the text. The abbreviations should be defined on first use. Abbreviations should not be used in the title.
+Manuscript Guide
+
+The following is a detailed manuscript preparation guide for articles submitted to IEM Journal; however, they can, for the most part, be used as a basis for other article types amending to concur with the page limit and premise of the formats, as appropriate.
+
+The manuscript should be typewritten using single-spacing, font of 12 Times Roman; on one side of the sheet only and in a single-column format.
+
+Title
+
+Titles are limited to 150 characters, including spaces. Please avoid the use of any abbreviations, acronyms, or formulae. Titles should reflect the content of the manuscript and any search terms that readers may use should be considered and incorporated.
+
+List of Authors' Names
+
+List down all the names of authors (who have contributed to the paper) and their respective affiliations. From the list of authors, place an asterisk (*) next to the corresponding author’s name. Provide the official email address of the corresponding author. Please DO NOT include your telephone number on the title page. Please be advised that additional authors cannot be added once the paper has undergone review.
+
+Abstract
+
+Provide an informative 100 to 250-word abstract at the head of the manuscript. This should be a concise reflection of the aims, findings, conclusions, and any interesting or important results. Carefully incorporate any terms that may be used by potentially interested readers to improve the article’s discoverability online (search engine optimisation). The abstract should contain no references. Abbreviations that are not commonly used should be defined (for the benefit of the non-specialist reader) at first use.
+
+Keywords
+
+These are used for indexing. Please include between 3-5 keywords.
+
+List of notations
+
+Please provide a list of symbols and definitions used in the text. This will ease our readers.
+
+Introduction
+
+A concise summary of current background knowledge, concerning relevant previous works in the field should be presented. Please also describe the objectives of and justification for the work contained in the submitted manuscript.
+
+Main Text
+
+The methods and processes applied to investigate and achieve the objectives should be communicated in sufficient detail so that readers can repeat the work successfully. The results should be reported interpreted accurately and analysed thoroughly. Figures/tables can be used to support these results.
+
+All research articles must include a section at the end of the main text that highlights the novelty of the results to the engineering field and any potential applications.
+
+All sections should be numbered in Arabic such as 1, 2, etc. with the title in capitals. Sub-sections should be numbered such as 1.1, 2.3, etc. Numbered all equations in round brackets ( ) flush to the right. The equation should be in the centre.
+
+Style for Illustrations (Tables and Figures)
+
+Try to include the illustrations in between the text. Each illustration must be numbered such as “Figure 1, Figures 2-3, etc.” and have a meaningful caption at the bottom. For tables, the caption must be at the top.
+
+On graphs, show only the coordinate axes, or at most the major grid lines, to avoid a dense hard-thread result.
+
+All lettering should be large enough to permit a legible reduction of the figure to column width. Typing on figures is not acceptable. Photographs should be glossy prints, of good contrast and gradation and any reasonable size.
+
+Conclusions
+
+A concise summary of the results of case studies or research project papers and the lessons learned should be discussed. If necessary, please elaborate on the applicability/relevance of your article to readers in other countries.
+
+Research journals must discuss the practical relevance and potential applications of the engineering work described. This is important to readers working in engineering-related practice.
+
+Please also include relevant references to demonstrate how previous engineering research work has been used. These references could be standards, codes, or relevant past journal papers.
+
+Appendices
+
+Additional information, such as tables or mathematical derivations can be included. These will be included in the article.
+
+Acknowledgements
+
+ Please provide acknowledgement details to those persons or organisations that contributed to the paper. Additional details required by funding bodies can be included.
+
+References
+
+The references to other literature that you have cited in your main text should be based on the APA style of referencing (Author, Date) as described below. Please refer to https://apastyle.apa.org/ for a detailed guide on the referencing style.
+
+Single author: (Author, Year) or Author (Year)
+Two authors: (Author 1 & Author 2, Year) or Author 1 and Author 2 (Year)
+Three or more authors: (Author 1 et al., Year) or Author 1 et al. (Year)
+In the text, the author and year of the reference should be put in parentheses immediately after the work referred to, for example ‘Controlled tests on the Millennium Bridge (Chapman et al., 2005; Murray & Geddes, 1987; Wilby et al., 2011) during which…..’ or ‘as mentioned by Lim et al. (2018), the NCA derived from the agricultural wastes…’
+
+All references must be listed, in full, at the end of the paper in alphabetical order, irrespective of where they are cited in the text.
+
+In the reference section, the references should be written in full, as follows:
+
+ Books: Author 1 surname, author 1 initials, & Author 2 surname, author 2 initials. (Year of publication). Book title. Publisher, City, Country. doi reference. For example:
+
+Kobayashi, K., Khairuddin, A. R., Ofori, G. & Ogunlana, S. (Eds.). (2009). Joint ventures in construction. Thomas Telford, London, UK.
+
+Owen, G. & Totterdill, B. (2008). The dispute board hearing. In Dispute Boards: Procedures and Practice. Thomas Telford, London, UK.
+
+Journal, magazine, and newspaper articles: Author 1 surname, author 1 initials, & Author 2 surname, author 2 initials. (Year of publication). Paper title. Journal title, Volume (Issue number), First Page-Last page. doi reference. Unpublished papers and theses should not be cited as they are not readily available.
+
+Lim, J. L. G., Raman, S. N., Lai, F. C., Zain, M. F. M., & Hamid, R. (2018). Synthesis of nano cementitious additives from agricultural wastes for the production of sustainable concrete. Journal of Cleaner Production, 171, 1150-1160. https://doi.org/10.1016/j.jclepro.2017.09.143.
+
+Soon, F. C., Khaw, H. Y., Chuah, J. H., & Kanesan, J. (2018). Hyper-parameters optimisation of deep CNN architecture for vehicle logo recognition. IET Intelligent Transport System, 12(8), 939-946.  https://doi.org/10.1049/iet-its.2018.5127.
+
+Conference proceedings: Author 1 surname, author 1 initials, & Author 2 surname, author 2 initials. (Year of publication). Paper title. Proceedings title, Volume (Issue number), First Page-Last page. doi reference. Unpublished conference proceedings (i.e. that were only given to delegates) should not be cited as they are not generally available.
+
+Chuah, J. H., Khaw, H. Y., Soon, F. C., & Chow, C. (2017). Detection of Gaussian noise and its level using deep convolutional neural network. Proceedings of the TENCON 2017 - 2017 IEEE Region 10 Conference, 2447-2450.
+
+https://doi.org/10.1109/TENCON.2017.8228272.
+
+Unpublished material should not be included in the Reference list.
+
+Please refer to APA Style (https://apastyle.apa.org/) for a detailed guide on the referencing style. Authors should strictly adhere to the referencing style specified herein.
+
+SettingsAdditionally, authors are encouraged to cite articles published in the IEM Journal
+
+ Mathematical equations
+
+Only relevant equations should be included in the main text and should be numbered. An equation editor program can be used to type in a formula.
+
+Figures and tables caption list: Please supply a figure caption list at the end of your journal paper. Figures and tables must be put in the text in consecutive order. All figures must have a brief title accompanied by a short description.
+
+ Brief Profile
+
+At the end of the manuscript, each author should provide a brief profile (less than 150 words), together with recent photographs (preferably less than 3 MB).
+
+ Corresponding Authors
+
+We only permit one corresponding author per submission.
+
+ Conflict of Interest
+
+Conflict of interest occurs when an author (or the author's institution) has personal or financial relationships that inappropriately influence the statements in the publication. Authors should ensure that publications will be written in an unbiased, ethical, and responsible manner. The authors working on any sponsored engineering work or publications should declare such work under Conflict of Interest during submission.
+
+ Submission of Paper
+
+Authors are required to submit via the IEM Online Journal Submission (OJS) through the following link: https://iemjournal.com.my/index.php/iem/about/submissions.
+
+Together with the manuscript, the corresponding author is required to enclose a cover letter containing the significance of the paper, the correspondence address, email address, and mobile phone number for easier communication. In the cover letter, kindly provide two (2) names as reviewers. The selected reviewers must have relevant knowledge and research experience. Provide the reviewers' postal and email addresses and telephone numbers (if possible).
+
+Further Enquiries
+
+For further inquiries, please contact the Secretariat at the address shown below:
+
+The Institution of Engineers, Malaysia
+
+Bangunan Ingenieur
+
+60 & 62 Jalan 52/4 (P. O. Box 223 Jalan Sultan)
+
+46720 Petaling Jaya, Selangor Darul Ehsan, MALAYSIA
+
+Tel: (+60)3–7968 4001/2 Fax: (+60)3–7957 7678
+
+E-mail: illyarnie@iem.org.my or pub@iem.org.my
+
+Submission Preparation Checklist
+All submissions must meet the following requirements.
+
+Please ensure your manuscript aligns with the journal's aims and scope. It is original and not under consideration elsewhere.
+Please provide the manuscript in Word document format
+Authors are required to submit 2 separate documents: 1. Manuscript: The full paper without author names and affiliations (for double-blind review purposes), and reference to funding sources (if relevant) 2. Author Information: A separate document containing the author(s)' full name(s), affiliation(s), contact details and acknowledgement of funding (if relevant) and 3 potential reviewers for the papers (if available)
+Adhere to the journal's formatting guidelines. Please refer to the website for template.
+Please be advised that additional authors cannot be added once the paper has undergone review.
+Please use UK English and proofread carefully for grammar, spelling, and clarity.
+Copyright Notice
+Submission of a contribution is taken to manifest the fact that the submission has not been submitted, accepted, published, or copyrighted elsewhere.
+
+IEM Journal follows the CC BY-NC-SA 4.0 license:
+
+Authors can deposit:
+✔️ The published version (Version of Record) in non-commercial institutional or subject repositories
+✔️ The accepted manuscript (post-peer review, pre-publication)
+✔️ Metadata and abstracts in repositories
+
+Privacy Statement
+The names and email addresses entered in this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.
